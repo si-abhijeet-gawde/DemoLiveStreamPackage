@@ -1,0 +1,1011 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "LiveStreamBrightCove",
+    "printedName": "LiveStreamBrightCove",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove"
+      },
+      {
+        "kind": "Import",
+        "name": "BrightcovePlayerSDK",
+        "printedName": "BrightcovePlayerSDK",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove",
+        "declAttributes": [
+          "Preconcurrency",
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BrightcovePlayerSDK",
+        "printedName": "BrightcovePlayerSDK",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove",
+        "declAttributes": [
+          "Preconcurrency",
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LiveStreamView",
+        "printedName": "LiveStreamView",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "EventType",
+            "printedName": "EventType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "mobile",
+                "printedName": "mobile",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LiveStreamBrightCove.LiveStreamView.EventType.Type) -> LiveStreamBrightCove.LiveStreamView.EventType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventType",
+                        "printedName": "LiveStreamBrightCove.LiveStreamView.EventType",
+                        "usr": "s:20LiveStreamBrightCove0aB4ViewV9EventTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LiveStreamBrightCove.LiveStreamView.EventType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventType",
+                            "printedName": "LiveStreamBrightCove.LiveStreamView.EventType",
+                            "usr": "s:20LiveStreamBrightCove0aB4ViewV9EventTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:20LiveStreamBrightCove0aB4ViewV9EventTypeO6mobileyA2EmF",
+                "mangledName": "$s20LiveStreamBrightCove0aB4ViewV9EventTypeO6mobileyA2EmF",
+                "moduleName": "LiveStreamBrightCove"
+              },
+              {
+                "kind": "Var",
+                "name": "camera",
+                "printedName": "camera",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LiveStreamBrightCove.LiveStreamView.EventType.Type) -> LiveStreamBrightCove.LiveStreamView.EventType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventType",
+                        "printedName": "LiveStreamBrightCove.LiveStreamView.EventType",
+                        "usr": "s:20LiveStreamBrightCove0aB4ViewV9EventTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LiveStreamBrightCove.LiveStreamView.EventType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventType",
+                            "printedName": "LiveStreamBrightCove.LiveStreamView.EventType",
+                            "usr": "s:20LiveStreamBrightCove0aB4ViewV9EventTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:20LiveStreamBrightCove0aB4ViewV9EventTypeO6camerayA2EmF",
+                "mangledName": "$s20LiveStreamBrightCove0aB4ViewV9EventTypeO6camerayA2EmF",
+                "moduleName": "LiveStreamBrightCove"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LiveStreamBrightCove.LiveStreamView.EventType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventType",
+                        "printedName": "LiveStreamBrightCove.LiveStreamView.EventType",
+                        "usr": "s:20LiveStreamBrightCove0aB4ViewV9EventTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:20LiveStreamBrightCove0aB4ViewV9EventTypeO8rawValueAESgSS_tcfc",
+                "mangledName": "$s20LiveStreamBrightCove0aB4ViewV9EventTypeO8rawValueAESgSS_tcfc",
+                "moduleName": "LiveStreamBrightCove",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:20LiveStreamBrightCove0aB4ViewV9EventTypeO8rawValueSSvp",
+                "mangledName": "$s20LiveStreamBrightCove0aB4ViewV9EventTypeO8rawValueSSvp",
+                "moduleName": "LiveStreamBrightCove",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20LiveStreamBrightCove0aB4ViewV9EventTypeO8rawValueSSvg",
+                    "mangledName": "$s20LiveStreamBrightCove0aB4ViewV9EventTypeO8rawValueSSvg",
+                    "moduleName": "LiveStreamBrightCove",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:20LiveStreamBrightCove0aB4ViewV9EventTypeO",
+            "mangledName": "$s20LiveStreamBrightCove0aB4ViewV9EventTypeO",
+            "moduleName": "LiveStreamBrightCove",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Environment",
+            "printedName": "Environment",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "prod",
+                "printedName": "prod",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LiveStreamBrightCove.LiveStreamView.Environment.Type) -> LiveStreamBrightCove.LiveStreamView.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "LiveStreamBrightCove.LiveStreamView.Environment",
+                        "usr": "s:20LiveStreamBrightCove0aB4ViewV11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LiveStreamBrightCove.LiveStreamView.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "LiveStreamBrightCove.LiveStreamView.Environment",
+                            "usr": "s:20LiveStreamBrightCove0aB4ViewV11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:20LiveStreamBrightCove0aB4ViewV11EnvironmentO4prodyA2EmF",
+                "mangledName": "$s20LiveStreamBrightCove0aB4ViewV11EnvironmentO4prodyA2EmF",
+                "moduleName": "LiveStreamBrightCove"
+              },
+              {
+                "kind": "Var",
+                "name": "nonProd",
+                "printedName": "nonProd",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LiveStreamBrightCove.LiveStreamView.Environment.Type) -> LiveStreamBrightCove.LiveStreamView.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "LiveStreamBrightCove.LiveStreamView.Environment",
+                        "usr": "s:20LiveStreamBrightCove0aB4ViewV11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LiveStreamBrightCove.LiveStreamView.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "LiveStreamBrightCove.LiveStreamView.Environment",
+                            "usr": "s:20LiveStreamBrightCove0aB4ViewV11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:20LiveStreamBrightCove0aB4ViewV11EnvironmentO7nonProdyA2EmF",
+                "mangledName": "$s20LiveStreamBrightCove0aB4ViewV11EnvironmentO7nonProdyA2EmF",
+                "moduleName": "LiveStreamBrightCove"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LiveStreamBrightCove.LiveStreamView.Environment?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "LiveStreamBrightCove.LiveStreamView.Environment",
+                        "usr": "s:20LiveStreamBrightCove0aB4ViewV11EnvironmentO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:20LiveStreamBrightCove0aB4ViewV11EnvironmentO8rawValueAESgSS_tcfc",
+                "mangledName": "$s20LiveStreamBrightCove0aB4ViewV11EnvironmentO8rawValueAESgSS_tcfc",
+                "moduleName": "LiveStreamBrightCove",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:20LiveStreamBrightCove0aB4ViewV11EnvironmentO8rawValueSSvp",
+                "mangledName": "$s20LiveStreamBrightCove0aB4ViewV11EnvironmentO8rawValueSSvp",
+                "moduleName": "LiveStreamBrightCove",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20LiveStreamBrightCove0aB4ViewV11EnvironmentO8rawValueSSvg",
+                    "mangledName": "$s20LiveStreamBrightCove0aB4ViewV11EnvironmentO8rawValueSSvg",
+                    "moduleName": "LiveStreamBrightCove",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:20LiveStreamBrightCove0aB4ViewV11EnvironmentO",
+            "mangledName": "$s20LiveStreamBrightCove0aB4ViewV11EnvironmentO",
+            "moduleName": "LiveStreamBrightCove",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(eventType:environment:locale:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LiveStreamView",
+                "printedName": "LiveStreamBrightCove.LiveStreamView",
+                "usr": "s:20LiveStreamBrightCove0aB4ViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventType",
+                "printedName": "LiveStreamBrightCove.LiveStreamView.EventType",
+                "usr": "s:20LiveStreamBrightCove0aB4ViewV9EventTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "LiveStreamBrightCove.LiveStreamView.Environment",
+                "usr": "s:20LiveStreamBrightCove0aB4ViewV11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20LiveStreamBrightCove0aB4ViewV9eventType11environment6localeA2C05EventG0O_AC11EnvironmentOSStcfc",
+            "mangledName": "$s20LiveStreamBrightCove0aB4ViewV9eventType11environment6localeA2C05EventG0O_AC11EnvironmentOSStcfc",
+            "moduleName": "LiveStreamBrightCove",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20LiveStreamBrightCove0aB4ViewV4bodyQrvp",
+            "mangledName": "$s20LiveStreamBrightCove0aB4ViewV4bodyQrvp",
+            "moduleName": "LiveStreamBrightCove",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20LiveStreamBrightCove0aB4ViewV4bodyQrvg",
+                "mangledName": "$s20LiveStreamBrightCove0aB4ViewV4bodyQrvg",
+                "moduleName": "LiveStreamBrightCove",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20LiveStreamBrightCove0aB4ViewV",
+        "mangledName": "$s20LiveStreamBrightCove0aB4ViewV",
+        "moduleName": "LiveStreamBrightCove",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Models\/LiveStreamModels.swift",
+      "kind": "StringLiteral",
+      "offset": 513,
+      "length": 9,
+      "value": "\"prelive\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Models\/LiveStreamModels.swift",
+      "kind": "StringLiteral",
+      "offset": 539,
+      "length": 6,
+      "value": "\"live\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Models\/LiveStreamModels.swift",
+      "kind": "StringLiteral",
+      "offset": 566,
+      "length": 10,
+      "value": "\"postlive\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ViewModels\/LiveStreamViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 422,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ViewModels\/LiveStreamViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 776,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ViewModels\/LiveStreamViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 982,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
+      "kind": "StringLiteral",
+      "offset": 345,
+      "length": 8,
+      "value": "\"MOBILE\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
+      "kind": "StringLiteral",
+      "offset": 376,
+      "length": 8,
+      "value": "\"CAMERA\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
+      "kind": "StringLiteral",
+      "offset": 494,
+      "length": 6,
+      "value": "\"PROD\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
+      "kind": "StringLiteral",
+      "offset": 524,
+      "length": 10,
+      "value": "\"NON-PROD\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
+      "kind": "StringLiteral",
+      "offset": 1005,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "FloatLiteral",
+      "offset": 342,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "FloatLiteral",
+      "offset": 386,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "FloatLiteral",
+      "offset": 435,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "FloatLiteral",
+      "offset": 484,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 600,
+      "length": 15,
+      "value": "\"6415818918001\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 647,
+      "length": 168,
+      "value": "\"BCpkADawqM3ikTFBoFaNzjghiJjf1GzxYQ0kOqZTl_VBJfjxqdil2A0wfqN_tDj8CSJNwPPsz9EQX8unZYHCkXq6nq5THsJ9ShpPuWoKaCCTuymjtweUk4DWqbdBNgF5ZOeG1DDeoaMQzJIoVa92V09iU5ET5R2meoG3FQ\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 1197,
+      "length": 21,
+      "value": "\"SDK not initialized\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 1254,
+      "length": 17,
+      "value": "\"Video not found\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 1320,
+      "length": 32,
+      "value": "\"Pre-live content not available\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 1404,
+      "length": 36,
+      "value": "\"Pre-live content URL not available\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 1490,
+      "length": 33,
+      "value": "\"Post-live content not available\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 1576,
+      "length": 37,
+      "value": "\"Post-live content URL not available\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 1663,
+      "length": 33,
+      "value": "\"Unsupported pre-live media type\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 1747,
+      "length": 34,
+      "value": "\"Unsupported post-live media type\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 1815,
+      "length": 29,
+      "value": "\"This live stream has ended.\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 1885,
+      "length": 22,
+      "value": "\"Unknown stream state\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 1944,
+      "length": 17,
+      "value": "\"Playback failed\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 2083,
+      "length": 23,
+      "value": "\"com.si.livestream.sdk\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 2141,
+      "length": 15,
+      "value": "\"LiveStreamSDK\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 8,
+      "value": "\"MOBILE\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 8,
+      "value": "\"CAMERA\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 421,
+      "length": 6,
+      "value": "\"PROD\""
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 451,
+      "length": 10,
+      "value": "\"NON-PROD\""
+    }
+  ]
+}

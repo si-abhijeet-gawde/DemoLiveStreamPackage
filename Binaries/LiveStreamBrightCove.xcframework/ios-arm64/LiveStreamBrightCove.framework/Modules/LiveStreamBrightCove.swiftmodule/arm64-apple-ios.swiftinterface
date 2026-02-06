@@ -1,0 +1,55 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios26.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name LiveStreamBrightCove
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+import AVKit
+import Combine
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _AVKit_SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+@_Concurrency.MainActor @preconcurrency public struct LiveStreamView : SwiftUICore.View {
+  public enum EventType : Swift.String {
+    case mobile
+    case camera
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.String)
+    #endif
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum Environment : Swift.String {
+    case prod
+    case nonProd
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.String)
+    #endif
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public typealias LanguageCode = Swift.String
+  @_Concurrency.MainActor @preconcurrency public init(eventType: LiveStreamBrightCove.LiveStreamView.EventType, environment: LiveStreamBrightCove.LiveStreamView.Environment, locale: LiveStreamBrightCove.LiveStreamView.LanguageCode = "en")
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s20LiveStreamBrightCove0aB4ViewV4bodyQrvp", 0) __
+}
+public typealias EventType = LiveStreamBrightCove.LiveStreamView.EventType
+public typealias Environment = LiveStreamBrightCove.LiveStreamView.Environment
+extension LiveStreamBrightCove.LiveStreamView : Swift.Sendable {}
+extension LiveStreamBrightCove.LiveStreamView.EventType : Swift.Equatable {}
+extension LiveStreamBrightCove.LiveStreamView.EventType : Swift.Hashable {}
+extension LiveStreamBrightCove.LiveStreamView.EventType : Swift.RawRepresentable {}
+extension LiveStreamBrightCove.LiveStreamView.Environment : Swift.Equatable {}
+extension LiveStreamBrightCove.LiveStreamView.Environment : Swift.Hashable {}
+extension LiveStreamBrightCove.LiveStreamView.Environment : Swift.RawRepresentable {}
