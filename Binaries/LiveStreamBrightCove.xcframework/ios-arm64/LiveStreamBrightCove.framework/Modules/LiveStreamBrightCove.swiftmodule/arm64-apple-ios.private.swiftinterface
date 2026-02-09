@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
-// swift-module-flags: -target arm64-apple-ios26.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SILiveStream
+// swift-module-flags: -target arm64-apple-ios26.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name LiveStreamBrightCove
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import AVKit
 import Combine
@@ -38,37 +38,37 @@ import os
     }
   }
   public typealias LanguageCode = Swift.String
-  @_Concurrency.MainActor @preconcurrency public init(eventType: SILiveStream.LiveStreamView.EventType, environment: SILiveStream.LiveStreamView.Environment, locale: SILiveStream.LiveStreamView.LanguageCode = "en")
+  @_Concurrency.MainActor @preconcurrency public init(eventType: LiveStreamBrightCove.LiveStreamView.EventType, environment: LiveStreamBrightCove.LiveStreamView.Environment, locale: LiveStreamBrightCove.LiveStreamView.LanguageCode = "en")
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  public typealias Body = @_opaqueReturnTypeOf("$s12SILiveStream04LiveB4ViewV4bodyQrvp", 0) __
+  public typealias Body = @_opaqueReturnTypeOf("$s20LiveStreamBrightCove0aB4ViewV4bodyQrvp", 0) __
 }
 @_Concurrency.MainActor @preconcurrency public struct ActivityIndicatorView : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(indicatorColor: SwiftUICore.Color = .white, backgroundColor: SwiftUICore.Color = Color(red: 237/255, green: 28/255, blue: 36/255))
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  public typealias Body = @_opaqueReturnTypeOf("$s12SILiveStream21ActivityIndicatorViewV4bodyQrvp", 0) __
+  public typealias Body = @_opaqueReturnTypeOf("$s20LiveStreamBrightCove21ActivityIndicatorViewV4bodyQrvp", 0) __
 }
 @_Concurrency.MainActor @preconcurrency public struct ActivityIndicatorOverlay : SwiftUICore.ViewModifier {
   @_Concurrency.MainActor @preconcurrency public init(isLoading: Swift.Bool, indicatorColor: SwiftUICore.Color = .white, backgroundColor: SwiftUICore.Color = Color(red: 237/255, green: 28/255, blue: 36/255))
-  @_Concurrency.MainActor @preconcurrency public func body(content: SILiveStream.ActivityIndicatorOverlay.Content) -> some SwiftUICore.View
+  @_Concurrency.MainActor @preconcurrency public func body(content: LiveStreamBrightCove.ActivityIndicatorOverlay.Content) -> some SwiftUICore.View
   
-  public typealias Body = @_opaqueReturnTypeOf("$s12SILiveStream24ActivityIndicatorOverlayV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACG_tF", 0) __
+  public typealias Body = @_opaqueReturnTypeOf("$s20LiveStreamBrightCove24ActivityIndicatorOverlayV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACG_tF", 0) __
 }
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func activityIndicator(isLoading: Swift.Bool, indicatorColor: SwiftUICore.Color = .white, backgroundColor: SwiftUICore.Color = Color(red: 237/255, green: 28/255, blue: 36/255)) -> some SwiftUICore.View
   
 }
-public typealias EventType = SILiveStream.LiveStreamView.EventType
-public typealias Environment = SILiveStream.LiveStreamView.Environment
-extension SILiveStream.LiveStreamView : Swift.Sendable {}
-extension SILiveStream.LiveStreamView.EventType : Swift.Equatable {}
-extension SILiveStream.LiveStreamView.EventType : Swift.Hashable {}
-extension SILiveStream.LiveStreamView.EventType : Swift.RawRepresentable {}
-extension SILiveStream.LiveStreamView.Environment : Swift.Equatable {}
-extension SILiveStream.LiveStreamView.Environment : Swift.Hashable {}
-extension SILiveStream.LiveStreamView.Environment : Swift.RawRepresentable {}
-extension SILiveStream.ActivityIndicatorView : Swift.Sendable {}
-extension SILiveStream.ActivityIndicatorOverlay : Swift.Sendable {}
+public typealias EventType = LiveStreamBrightCove.LiveStreamView.EventType
+public typealias Environment = LiveStreamBrightCove.LiveStreamView.Environment
+extension LiveStreamBrightCove.LiveStreamView : Swift.Sendable {}
+extension LiveStreamBrightCove.LiveStreamView.EventType : Swift.Equatable {}
+extension LiveStreamBrightCove.LiveStreamView.EventType : Swift.Hashable {}
+extension LiveStreamBrightCove.LiveStreamView.EventType : Swift.RawRepresentable {}
+extension LiveStreamBrightCove.LiveStreamView.Environment : Swift.Equatable {}
+extension LiveStreamBrightCove.LiveStreamView.Environment : Swift.Hashable {}
+extension LiveStreamBrightCove.LiveStreamView.Environment : Swift.RawRepresentable {}
+extension LiveStreamBrightCove.ActivityIndicatorView : Swift.Sendable {}
+extension LiveStreamBrightCove.ActivityIndicatorOverlay : Swift.Sendable {}

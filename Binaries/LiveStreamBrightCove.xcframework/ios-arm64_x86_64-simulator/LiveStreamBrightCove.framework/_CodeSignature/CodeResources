@@ -279,47 +279,47 @@
 		</dict>
 		<key>Info.plist</key>
 		<data>
-		KfeHhzk2K/yJVmvPTipN2Ys+7jg=
+		77FEl4R4e2PbtWgk/TRLjonEIi4=
 		</data>
-		<key>Modules/SILiveStream.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		MmEv22Qqhdn1HaGEET7vmdIH/lU=
+		rgZTAfCOCaAfom/0adxmYtZZWFU=
 		</data>
-		<key>Modules/SILiveStream.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		L3a+pqEJinNSNlC+N0+Ps0NDU4g=
+		OZ4dwnNJosnWDYwoWmpwbmdSUcQ=
 		</data>
-		<key>Modules/SILiveStream.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		dMAuWeap2MKUFdHgnej9fASb/nA=
+		xrZyOHl7sgYHuScvRK1rNzd6caU=
 		</data>
-		<key>Modules/SILiveStream.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		L3a+pqEJinNSNlC+N0+Ps0NDU4g=
+		OZ4dwnNJosnWDYwoWmpwbmdSUcQ=
 		</data>
-		<key>Modules/SILiveStream.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QcaB6R3fCTO1ztuHASttIVygXv8=
+		jteHozfiFacDXdy6pcjjZvSRFfQ=
 		</data>
-		<key>Modules/SILiveStream.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		MmEv22Qqhdn1HaGEET7vmdIH/lU=
+		rgZTAfCOCaAfom/0adxmYtZZWFU=
 		</data>
-		<key>Modules/SILiveStream.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		V1DnYpGlFiPBiGW7GRG7ZkadJso=
+		iIJkGd8RkZShwweViqkD4dgMTR0=
 		</data>
-		<key>Modules/SILiveStream.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		6i9sNqFPdYtTt761rACaQnH2o78=
+		rT4Yv7rqNb9WyG8lJ3svHNTJ0+0=
 		</data>
-		<key>Modules/SILiveStream.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		V1DnYpGlFiPBiGW7GRG7ZkadJso=
+		iIJkGd8RkZShwweViqkD4dgMTR0=
 		</data>
-		<key>Modules/SILiveStream.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4mtBTVchfnNf+Ij3bOvfezizh0w=
+		fORCV1nMWTdEd4y9j3pCT9HK1v4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -741,74 +741,74 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Modules/SILiveStream.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lpBAMt8TtqLOW7KXLr3urg468zfCxUK/FPxGBtHnEyM=
+			k9PAxC6Gfnuh4x+tTy5SJlJIIngpGGOJgKqzD2Is7Ig=
 			</data>
 		</dict>
-		<key>Modules/SILiveStream.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mKUqZxjx9rnFMC30acNsCSnezF/bs8rMo9ErO5e6pGI=
+			1Cs3zWdu6rLXGhxNwdip3hzv3txfmgkkA8a5TP2aFsc=
 			</data>
 		</dict>
-		<key>Modules/SILiveStream.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iSXZKwaogIGWTT2azMSxWhRwGDc2Oia2SXbexbKlxgI=
+			It0XZX/3U1p8YlbMXd8fFUxE/+lsAWTcPPqqKQ8XOCI=
 			</data>
 		</dict>
-		<key>Modules/SILiveStream.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mKUqZxjx9rnFMC30acNsCSnezF/bs8rMo9ErO5e6pGI=
+			1Cs3zWdu6rLXGhxNwdip3hzv3txfmgkkA8a5TP2aFsc=
 			</data>
 		</dict>
-		<key>Modules/SILiveStream.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aW8LvqpIsy5ens3JoMbs9ykdg149rnzAURo1GTzBICE=
+			gcoN8XA7wjPwhw01QU3vzvQVtWCp+JSBDWu9FniMS+g=
 			</data>
 		</dict>
-		<key>Modules/SILiveStream.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lpBAMt8TtqLOW7KXLr3urg468zfCxUK/FPxGBtHnEyM=
+			k9PAxC6Gfnuh4x+tTy5SJlJIIngpGGOJgKqzD2Is7Ig=
 			</data>
 		</dict>
-		<key>Modules/SILiveStream.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JegqtdCVWPWffI9bPGjao6mbz3C/iGRKYGXrd5i4Rl0=
+			muR60xNYX22U+bE5T0OMjqk+lh+91D8oB8TWloyRAqE=
 			</data>
 		</dict>
-		<key>Modules/SILiveStream.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ikbxS7/NnEL6iL8QImEuZkbqXPB7wub0ClImc24rCDs=
+			b4PnJJt+8uP3tTNeR4EiWfG/xlMAoqRAd7fTccmiU9I=
 			</data>
 		</dict>
-		<key>Modules/SILiveStream.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JegqtdCVWPWffI9bPGjao6mbz3C/iGRKYGXrd5i4Rl0=
+			muR60xNYX22U+bE5T0OMjqk+lh+91D8oB8TWloyRAqE=
 			</data>
 		</dict>
-		<key>Modules/SILiveStream.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BNegWq1noUs0rHSh39EjCKs/sug6GPEJt5iOvle4QLc=
+			c/s/C27qYqDpLhXpF+qgstPC4usT2qSn9KFk4wt4obY=
 			</data>
 		</dict>
 	</dict>
