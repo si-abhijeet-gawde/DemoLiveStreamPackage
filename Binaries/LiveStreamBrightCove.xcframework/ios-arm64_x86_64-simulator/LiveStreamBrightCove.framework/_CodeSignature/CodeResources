@@ -283,43 +283,43 @@
 		</data>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FgF4s65sWsld+RZex1TYyAa3DLM=
+		rgZTAfCOCaAfom/0adxmYtZZWFU=
 		</data>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		mpAIOuZv6C+d55BSLi754JxFfgY=
+		OZ4dwnNJosnWDYwoWmpwbmdSUcQ=
 		</data>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		lq5PLFfnfngbqfVXAVBCdczzJaM=
+		xrZyOHl7sgYHuScvRK1rNzd6caU=
 		</data>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mpAIOuZv6C+d55BSLi754JxFfgY=
+		OZ4dwnNJosnWDYwoWmpwbmdSUcQ=
 		</data>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		S6AfLyQzq/9hY/lYXM/wEHr8c9c=
+		jteHozfiFacDXdy6pcjjZvSRFfQ=
 		</data>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FgF4s65sWsld+RZex1TYyAa3DLM=
+		rgZTAfCOCaAfom/0adxmYtZZWFU=
 		</data>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xD2x0exKwB8cCk/xwEm8T1lgZ0g=
+		iIJkGd8RkZShwweViqkD4dgMTR0=
 		</data>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		IceRXg/L2eTzwPGq3AEf3eNtEh8=
+		rT4Yv7rqNb9WyG8lJ3svHNTJ0+0=
 		</data>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xD2x0exKwB8cCk/xwEm8T1lgZ0g=
+		iIJkGd8RkZShwweViqkD4dgMTR0=
 		</data>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		osi8a1M5RqqqptlGIgjyISyD+GA=
+		fORCV1nMWTdEd4y9j3pCT9HK1v4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -745,70 +745,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lHB9TqcLIbk17/Tz+InAxK8WA9coF5ijRc6GolpGXJI=
+			k9PAxC6Gfnuh4x+tTy5SJlJIIngpGGOJgKqzD2Is7Ig=
 			</data>
 		</dict>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f2iAeaxF62Y/PCjmYbqeAVgxQvTnApsnU9ywzJ5j/yc=
+			1Cs3zWdu6rLXGhxNwdip3hzv3txfmgkkA8a5TP2aFsc=
 			</data>
 		</dict>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MG5P3MLnVNx3ZudBfGyipL5vazb5DYjMFEY4Ch/r/uI=
+			It0XZX/3U1p8YlbMXd8fFUxE/+lsAWTcPPqqKQ8XOCI=
 			</data>
 		</dict>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f2iAeaxF62Y/PCjmYbqeAVgxQvTnApsnU9ywzJ5j/yc=
+			1Cs3zWdu6rLXGhxNwdip3hzv3txfmgkkA8a5TP2aFsc=
 			</data>
 		</dict>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JebKF8D4gayoS7rAZwFfRXc6Bkww8pMeKjyYnujq3wI=
+			gcoN8XA7wjPwhw01QU3vzvQVtWCp+JSBDWu9FniMS+g=
 			</data>
 		</dict>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lHB9TqcLIbk17/Tz+InAxK8WA9coF5ijRc6GolpGXJI=
+			k9PAxC6Gfnuh4x+tTy5SJlJIIngpGGOJgKqzD2Is7Ig=
 			</data>
 		</dict>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oSpddtFTnRiFs+r7Uwt188+60jDSLQMk2BnCI6ZizkQ=
+			muR60xNYX22U+bE5T0OMjqk+lh+91D8oB8TWloyRAqE=
 			</data>
 		</dict>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ABZ/czvrimT10C3C11F3G61pqp5k6x2LsiTfb9hcpy4=
+			b4PnJJt+8uP3tTNeR4EiWfG/xlMAoqRAd7fTccmiU9I=
 			</data>
 		</dict>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oSpddtFTnRiFs+r7Uwt188+60jDSLQMk2BnCI6ZizkQ=
+			muR60xNYX22U+bE5T0OMjqk+lh+91D8oB8TWloyRAqE=
 			</data>
 		</dict>
 		<key>Modules/LiveStreamBrightCove.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XyDQSKse3tmIEy6haSf6aUCs4QUwtlkJhFOPY3yviDg=
+			c/s/C27qYqDpLhXpF+qgstPC4usT2qSn9KFk4wt4obY=
 			</data>
 		</dict>
 	</dict>

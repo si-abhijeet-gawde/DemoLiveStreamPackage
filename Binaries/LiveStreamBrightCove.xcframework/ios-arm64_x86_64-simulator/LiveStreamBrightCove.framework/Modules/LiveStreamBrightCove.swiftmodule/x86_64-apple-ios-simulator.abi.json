@@ -723,6 +723,334 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveStreamBrightCove",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ActivityIndicatorView",
+        "printedName": "ActivityIndicatorView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(indicatorColor:backgroundColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ActivityIndicatorView",
+                "printedName": "LiveStreamBrightCove.ActivityIndicatorView",
+                "usr": "s:20LiveStreamBrightCove21ActivityIndicatorViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20LiveStreamBrightCove21ActivityIndicatorViewV14indicatorColor010backgroundI0AC7SwiftUI0I0V_AHtcfc",
+            "mangledName": "$s20LiveStreamBrightCove21ActivityIndicatorViewV14indicatorColor010backgroundI0AC7SwiftUI0I0V_AHtcfc",
+            "moduleName": "LiveStreamBrightCove",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20LiveStreamBrightCove21ActivityIndicatorViewV4bodyQrvp",
+            "mangledName": "$s20LiveStreamBrightCove21ActivityIndicatorViewV4bodyQrvp",
+            "moduleName": "LiveStreamBrightCove",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20LiveStreamBrightCove21ActivityIndicatorViewV4bodyQrvg",
+                "mangledName": "$s20LiveStreamBrightCove21ActivityIndicatorViewV4bodyQrvg",
+                "moduleName": "LiveStreamBrightCove",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20LiveStreamBrightCove21ActivityIndicatorViewV",
+        "mangledName": "$s20LiveStreamBrightCove21ActivityIndicatorViewV",
+        "moduleName": "LiveStreamBrightCove",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ActivityIndicatorOverlay",
+        "printedName": "ActivityIndicatorOverlay",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(isLoading:indicatorColor:backgroundColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ActivityIndicatorOverlay",
+                "printedName": "LiveStreamBrightCove.ActivityIndicatorOverlay",
+                "usr": "s:20LiveStreamBrightCove24ActivityIndicatorOverlayV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20LiveStreamBrightCove24ActivityIndicatorOverlayV9isLoading14indicatorColor010backgroundK0ACSb_7SwiftUI0K0VAItcfc",
+            "mangledName": "$s20LiveStreamBrightCove24ActivityIndicatorOverlayV9isLoading14indicatorColor010backgroundK0ACSb_7SwiftUI0K0VAItcfc",
+            "moduleName": "LiveStreamBrightCove",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "body",
+            "printedName": "body(content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_ViewModifier_Content",
+                "printedName": "SwiftUI._ViewModifier_Content<LiveStreamBrightCove.ActivityIndicatorOverlay>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActivityIndicatorOverlay",
+                    "printedName": "LiveStreamBrightCove.ActivityIndicatorOverlay",
+                    "usr": "s:20LiveStreamBrightCove24ActivityIndicatorOverlayV"
+                  }
+                ],
+                "usr": "s:7SwiftUI21_ViewModifier_ContentV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20LiveStreamBrightCove24ActivityIndicatorOverlayV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACG_tF",
+            "mangledName": "$s20LiveStreamBrightCove24ActivityIndicatorOverlayV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACG_tF",
+            "moduleName": "LiveStreamBrightCove",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20LiveStreamBrightCove24ActivityIndicatorOverlayV",
+        "mangledName": "$s20LiveStreamBrightCove24ActivityIndicatorOverlayV",
+        "moduleName": "LiveStreamBrightCove",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ViewModifier",
+            "printedName": "ViewModifier",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI12ViewModifierP",
+            "mangledName": "$s7SwiftUI12ViewModifierP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -764,6 +1092,107 @@
         "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "LiveStreamBrightCove"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "activityIndicator",
+            "printedName": "activityIndicator(isLoading:indicatorColor:backgroundColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP20LiveStreamBrightCoveE17activityIndicator9isLoading14indicatorColor010backgroundM0QrSb_AA0M0VAJtF",
+            "mangledName": "$s7SwiftUI4ViewP20LiveStreamBrightCoveE17activityIndicator9isLoading14indicatorColor010backgroundM0QrSb_AA0M0VAJtF",
+            "moduleName": "LiveStreamBrightCove",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUICore",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "TypeEraser",
+          "TypeEraser",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Custom"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -847,6 +1276,174 @@
       "value": "\"en\""
     },
     {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1772,
+      "length": 3,
+      "value": "237"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1776,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1788,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1791,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1802,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/Views\/LiveStreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1805,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 499,
+      "length": 3,
+      "value": "237"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 503,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 515,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 518,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 529,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 532,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1292,
+      "length": 3,
+      "value": "237"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1296,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1308,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1311,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1322,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1325,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2168,
+      "length": 3,
+      "value": "237"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2172,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2184,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2187,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2198,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/ActivityIndicator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2201,
+      "length": 3,
+      "value": "255"
+    },
+    {
       "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
       "kind": "FloatLiteral",
       "offset": 342,
@@ -877,16 +1474,16 @@
     {
       "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 600,
+      "offset": 883,
       "length": 15,
-      "value": "\"6415818918001\""
+      "value": "\"6416100787001\""
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 647,
+      "offset": 930,
       "length": 168,
-      "value": "\"BCpkADawqM3ikTFBoFaNzjghiJjf1GzxYQ0kOqZTl_VBJfjxqdil2A0wfqN_tDj8CSJNwPPsz9EQX8unZYHCkXq6nq5THsJ9ShpPuWoKaCCTuymjtweUk4DWqbdBNgF5ZOeG1DDeoaMQzJIoVa92V09iU5ET5R2meoG3FQ\""
+      "value": "\"BCpkADawqM2-HzL7jnwVuLVB8LD8e-l0k56gsFgoPrJRWp3_W2Nt4hWoH5JoX_iUqz2gbHNtI7-7qCbEbZdn5d_lPK_r4aGLd5rzsWzXRYKbH_OYEUr0h7z6_VerBRKM0U6eKJPgL917btNTlx6DrpNjIx25XtDLlKMWGA\""
     },
     {
       "filePath": "\/Users\/abhijeetgawde\/Desktop\/Ferrari\/LiveStreamBrightCove\/LiveStreamBrightCove\/SI-LiveStream-SDK\/LiveStreamHelpers.swift",
