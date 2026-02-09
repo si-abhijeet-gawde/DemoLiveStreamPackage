@@ -4,18 +4,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "SILiveStream",
-    platforms: [.iOS(.v13)],
+    name: "LiveStreamDemoPackage",
+    platforms: [
+        .iOS(.v13),
+    ],
     products: [
         .library(
             name: "SILiveStream",
-            targets: ["LiveStreamBrightCove"]
-        )
+            targets: ["SILiveStream"]
+        ),
     ],
     targets: [
         .binaryTarget(
-            name: "LiveStreamBrightCove",
-            path: "Binaries/LiveStreamBrightCove.xcframework"
-        )
+            name: "SILiveStream",
+            path: "./SILiveStream.xcframework"
+        ),
     ]
 )
